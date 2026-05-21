@@ -1,0 +1,19 @@
+{
+    "portfolio": [
+        "xgb",
+        "rf"
+    ],
+    "max_batch_size": 100000,
+    "max_imbalance_ratio": 100,
+    "num_batches": 2,
+    "population_prior": 0.008428049974775203,
+    "batch_priors": [
+        0.016714731328350302,
+        0.016715715126545027
+    ],
+    "decision_cutoff_raw": 0.032926479422263746,
+    "decision_cutoff_proba": 0.014685670451289854,
+    "decision_cutoff_rank": 0.826032603260326,
+    "decision_cutoff_logit": -4.206088487431473,
+    "decision_cutoff_lift": 1.7424754830884301
+}
