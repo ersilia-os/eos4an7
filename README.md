@@ -1,7 +1,3 @@
-This model has been financed by Project PID2023-148309OA-I00 funded by MICIU/AEI/10.13039/501100011033 and by ERDF, EU.
-
-<img src="https://raw.githubusercontent.com/ersilia-os/ersilia/master/assets/miciu_cofinanciado.jpg" width="300">
-
 # Antimicrobial activity prediction against Plasmodium falciparum from public ChEMBL and PubChem data
 
 Bioactivity prediction of growth inhibition in Plasmodium falciparum, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (percent inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
@@ -25,25 +21,25 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-05-21.
 - **Input Dimension:** `1`
 
 ### Output
-- **Output Dimension:** `97`
+- **Output Dimension:** `95`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Plasmodium falciparum from 96 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of antimicrobial activity against Plasmodium falciparum from 94 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
 |------|------|-----------|-------------|
-| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 96 sub-models. Recommended threshold: 0.951. |
-| individual_inhibition_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4888485 (inhibition %; cutoff 50 %; n=147429). Recommended threshold: 0.807. |
-| individual_inhibition_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4513220 (inhibition %; cutoff 50 %; n=64767). Recommended threshold: 0.821. |
-| individual_percenteffect | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649945 (single-point % effect; cutoff 50 %; n=33697). Recommended threshold: 0.843. |
-| individual_inhibition_c | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1054501 (inhibition %; cutoff 75 %; n=13368). Recommended threshold: 0.514. |
-| individual_inhibition_decoys | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1054500 (inhibition %; cutoff 50 %; n=134540 incl. decoys). Recommended threshold: 0.820. |
-| individual_ec50_decoys_l | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1040691 (EC50; cutoff 10 uM; n=41770 incl. decoys). Recommended threshold: 0.809. |
-| individual_ec50_decoys_k | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL730080 (EC50; cutoff 10 uM; n=9820 incl. decoys). Recommended threshold: 0.833. |
-| individual_ic50_decoys_f | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4888488 (IC50; cutoff 10 uM; n=6470 incl. decoys). Recommended threshold: 0.710. |
-| individual_ic50_decoys_d | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649964 (IC50; cutoff 10 uM; n=4330 incl. decoys). Recommended threshold: 0.764. |
+| consensus_score | float | high | Tanh-transformed quality-weighted consensus probability across the 94 sub-models. Recommended threshold: 0.953. |
+| individual_inhibition_a | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4888485 (inhibition %; cutoff 50%; n=147429). Recommended threshold: 0.801. |
+| individual_inhibition_b | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4513220 (inhibition %; cutoff 50%; n=64767). Recommended threshold: 0.824. |
+| individual_percenteffect | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649945 (percent effect; cutoff 50%; n=33697). Recommended threshold: 0.859. |
+| individual_inhibition_c | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1054501 (inhibition %; cutoff 75%; n=13368). Recommended threshold: 0.521. |
+| individual_inhibition_decoys | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1054500 (inhibition %; cutoff 50%; n=134540). Recommended threshold: 0.85. |
+| individual_ec50_decoys_l | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL1040691 (EC50 measurements; cutoff 10 uM; n=41760). Recommended threshold: 0.816. |
+| individual_ec50_decoys_k | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL730080 (EC50 measurements; cutoff 10 uM; n=9820). Recommended threshold: 0.834. |
+| individual_ic50_decoys_f | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4888490 (IC50 measurements; cutoff 10 uM; n=5320). Recommended threshold: 0.754. |
+| individual_ic50_decoys_c | float | high | Probability from sub-model trained on ChEMBL assay CHEMBL4649964 (IC50 measurements; cutoff 10 uM; n=4330). Recommended threshold: 0.778. |
 
-_10 of 97 columns are shown_
+_10 of 95 columns are shown_
 ### Source and Deployment
 - **Source:** `Local`
 - **Source Type:** `Internal`
