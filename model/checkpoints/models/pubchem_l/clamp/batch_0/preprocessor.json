@@ -1,7 +1,7 @@
 {
   "task": "classification",
   "scaler": "standard",
-  "reducer": "correlation_filter",
+  "reducer": "variance_threshold",
   "n_features_in": 768,
   "n_features_out": 768,
   "kept_feature_indices": [

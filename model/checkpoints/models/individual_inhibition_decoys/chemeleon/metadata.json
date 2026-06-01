@@ -11,9 +11,9 @@
         0.0989,
         0.10318471337579618
     ],
-    "decision_cutoff_raw": 0.17513752108223524,
-    "decision_cutoff_proba": 0.10725120617067153,
-    "decision_cutoff_rank": 0.820663232424766,
-    "decision_cutoff_logit": -2.11913143130889,
-    "decision_cutoff_lift": 1.0725120617067152
+    "decision_cutoff_raw": 0.07598397333174944,
+    "decision_cutoff_proba": 0.11522471212012217,
+    "decision_cutoff_rank": 0.8536503619992484,
+    "decision_cutoff_logit": -2.0384494605783128,
+    "decision_cutoff_lift": 1.1522471212012215
 }
