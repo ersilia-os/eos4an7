@@ -1,6 +1,6 @@
 # Antimicrobial activity prediction against Plasmodium falciparum from public ChEMBL and PubChem data
 
-Bioactivity prediction of growth inhibition in Plasmodium falciparum, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
+Assesses antimalarial potential against Plasmodium falciparum through 51 classifiers trained on separate ChEMBL and PubChem bioactivity pools, with single-point and dose-response assays modelled independently. Malaria screening has generated one of the largest public antiparasitic datasets, supporting a wider panel than most organisms allow. Individual sub-models vary considerably in the volume of data behind them, which the quality-weighted consensus is designed to account for.
 
 This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 
@@ -23,7 +23,7 @@ This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
 ### Output
 - **Output Dimension:** `52`
 - **Output Consistency:** `Fixed`
-- **Interpretation:** Probability of antimicrobial activity against Plasmodium falciparum from 51 ChEMBL- and PubChem-trained sub-models, plus a quality-weighted consensus score.
+- **Interpretation:** Probability of Plasmodium falciparum inhibition across 51 sub-models, plus a weighted consensus.
 
 Below are the **Output Columns** of the model:
 | Name | Type | Direction | Description |
