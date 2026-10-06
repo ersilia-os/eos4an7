@@ -28,7 +28,7 @@
     "sparsity": 0.9659527831618087,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.001466275659824047,
-    "feature_signal_strength": 0.04027253012347026,
+    "feature_signal_strength": 0.04027253012335231,
     "feature_signal_p90": 0.08951792095229262,
     "task": "classification",
     "imbalance_ratio": 1.0,
@@ -44,7 +44,7 @@
   "decision_cutoff_raw": 0.5748772025108337,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.5257142857142857,
-  "decision_cutoff_rank": 0.5278003473674908,
+  "decision_cutoff_rank": 0.5277975673327542,
   "decision_cutoff_logit": 0.1029479692524422,
   "calibrator": {
     "method": "isotonic",
