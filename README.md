@@ -2,7 +2,7 @@
 
 Bioactivity prediction of growth inhibition in Plasmodium falciparum, trained as binary (active/inactive) classifiers from publicly available data in ChEMBL and PubChem. Independent models are trained on multiple bioactivity datasets, corresponding to single-point (Inhibition) and dose-response (MIC) assays, among others. A ranking score is provided for each model alongside a combined consensus score.
 
-This model was incorporated on 2026-05-19.Last packaged on 2026-07-22.
+This model was incorporated on 2026-05-19.Last packaged on 2026-10-06.
 
 ## Information
 ### Identifiers
@@ -50,11 +50,11 @@ _10 of 52 columns are shown_
 ### Resource Consumption
 - **Model Size (Mb):** `2772`
 - **Environment Size (Mb):** `7982`
-- **Image Size (Mb):** `10242.18`
+- **Image Size (Mb):** `11093.44`
 
 **Computational Performance (seconds):**
-- 10 inputs: `99.15`
-- 100 inputs: `112.47`
+- 10 inputs: `104.81`
+- 100 inputs: `108.21`
 - 10000 inputs: `-1`
 
 ### References
