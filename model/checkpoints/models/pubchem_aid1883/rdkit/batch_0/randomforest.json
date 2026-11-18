@@ -8,7 +8,7 @@
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
   "decision_cutoff_proba": 0.5061728395061729,
   "decision_cutoff_rank": 0.4751683501683502,
-  "decision_cutoff_logit": 0.02469261259037163,
+  "decision_cutoff_logit": 0.024692612590371633,
   "calibrator": {
     "method": "isotonic",
     "X_thresholds": [
@@ -1005,7 +1005,7 @@
       0.76,
       0.76,
       0.76,
-      0.7683333333333333,
+      0.7683333333333334,
       0.77,
       0.77,
       0.77,
@@ -1204,7 +1204,7 @@
       0.93,
       0.93,
       0.93,
-      0.9333333333333335,
+      0.9333333333333332,
       0.94,
       0.94,
       0.94,

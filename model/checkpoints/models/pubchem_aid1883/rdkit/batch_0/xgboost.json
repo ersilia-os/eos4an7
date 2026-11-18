@@ -16,7 +16,7 @@
     "max_bin": 256,
     "n_estimators": 2000,
     "early_stopping_rounds": 50,
-    "nthread": 56,
+    "nthread": 64,
     "objective": "binary:logistic",
     "scale_pos_weight": 1.0,
     "eval_metric": "auc"
@@ -28,7 +28,7 @@
     "sparsity": 0.5365097333488138,
     "is_sparse_counts": false,
     "binary_feature_fraction": 0.1206896551724138,
-    "feature_signal_strength": 0.10974320499670705,
+    "feature_signal_strength": 0.10974320318865957,
     "feature_signal_p90": 0.2555384462665302,
     "task": "classification",
     "imbalance_ratio": 1.0,

@@ -18,7 +18,7 @@
     "reg_lambda": 2.125,
     "gamma": 0.05,
     "max_bin": 256,
-    "nthread": 64,
+    "nthread": 56,
     "objective": "binary:logistic",
     "scale_pos_weight": 1.0,
     "eval_metric": "auc"
@@ -45,8 +45,8 @@
   "decision_cutoff_logit": -0.0976628479238517,
   "calibrator": {
     "method": "platt",
-    "coef": 3.3955158287238474,
-    "intercept": -1.7909979660718442
+    "coef": 3.395515828723848,
+    "intercept": -1.7909979660718445
   },
   "ranker": {
     "knots": [

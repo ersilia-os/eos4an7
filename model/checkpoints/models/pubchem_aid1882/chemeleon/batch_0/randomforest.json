@@ -6,13 +6,13 @@
   "n_features_in": 1870,
   "decision_cutoff_raw": 0.29,
   "decision_cutoff_raw_source": "oof_balanced_accuracy",
-  "decision_cutoff_proba": 0.25469862121124437,
+  "decision_cutoff_proba": 0.2546986212112443,
   "decision_cutoff_rank": 0.7124401913875598,
   "decision_cutoff_logit": -1.0737077032767968,
   "calibrator": {
     "method": "platt",
     "coef": 6.571055100665481,
-    "intercept": -2.979313682469786
+    "intercept": -2.9793136824697863
   },
   "ranker": {
     "knots": [
